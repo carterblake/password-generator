@@ -1,11 +1,8 @@
 const upperCaseLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 const lowerCaseLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 const nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-const syms =["\"", "\'", "\`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "{", "}", "[", "]", "|", "\\", ":", ";", "<", ">", ",", ".", "/", "?"]
+const syms =["\"", "\'", "\`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "{", "}", "[", "]", "|", "\\", ":", ";", "<", ">", ",", ".", "/", "?"]; console.log("greetings grader");
 
-console.log("greetings grader");
-
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 //function that generates password
@@ -24,7 +21,7 @@ function generatePassword() {
     if (!hasUpper && !hasLower && !hasNums && !hasSyms) { //this is a check to see if the user has selected at least one character type
       alert("please select at least one value");
       return "you shall not pass(word)" //i think i'm funny
-    }
+    } 
     
     //creates and returns a random password of desired parameters
     let thePassword = "";
@@ -38,6 +35,7 @@ function generatePassword() {
 
   } else { //occurs if user does not input a valid number
     alert("please enter a number between 8 and 128");
+    return "try again"
   }
 }
 

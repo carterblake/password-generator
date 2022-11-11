@@ -9,15 +9,20 @@ Its simplicity and elegance taught me much about how JavaScript works.
 
 ## Installation
 
-Simply navigate to [INSERT WEB LINK HERE] and press the big red button to begin.
+Simply navigate to https://carterblake.github.io/password-generator-any-character/ and press the big red button to begin.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+to use:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+1. press button
+2. follow prompts
+3. victory and security
 
-![alt text](assets/images/screenshot.png)
+![screenshot of homepage](assets/03-javascript-homework-demo.png)
+![prompt-for-length](assets/example-length.png)
+![prompt-for-charactertype](assets/example-character-type.png)
+![results-screenshot](assets/example-results.png)
 
 ## Credits
 
